@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.structurizr",
+    "module": "structurizr-core",
+    "version": "1.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-core-1.29.0.jar",
+          "url": "structurizr-core-1.29.0.jar",
+          "size": 185213,
+          "sha512": "2dcf105da2ef35241862dda23ccb2c4e89fba871b341aec728ec4b88e6d8f81f8329dd93f938c06f126dcc4e3ab3d7ef30f8e33d9b9b65b9c03448a8c6c519dd",
+          "sha256": "fbb4dec5f4e34e75972c83b34b45e169b2dc8da8f38d80e1d4f3d878e14e8f2c",
+          "sha1": "c63b4b2fc05b1140eae69b863716aee0213a2a86",
+          "md5": "79af789a5e865313ce2c848ae43d66cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.16.0"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "commons-logging",
+          "module": "commons-logging",
+          "version": {
+            "requires": "1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-core-1.29.0.jar",
+          "url": "structurizr-core-1.29.0.jar",
+          "size": 185213,
+          "sha512": "2dcf105da2ef35241862dda23ccb2c4e89fba871b341aec728ec4b88e6d8f81f8329dd93f938c06f126dcc4e3ab3d7ef30f8e33d9b9b65b9c03448a8c6c519dd",
+          "sha256": "fbb4dec5f4e34e75972c83b34b45e169b2dc8da8f38d80e1d4f3d878e14e8f2c",
+          "sha1": "c63b4b2fc05b1140eae69b863716aee0213a2a86",
+          "md5": "79af789a5e865313ce2c848ae43d66cf"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-core-1.29.0-javadoc.jar",
+          "url": "structurizr-core-1.29.0-javadoc.jar",
+          "size": 484403,
+          "sha512": "e8ba8bf8aaca479c65a898d2f3602a12d81c200cb2ebd6aaa5b8d9304e9e922e4173dc1bf1cf27b9c96d45bb786f0d6daf79c8d4b1ee07842324679557235aa5",
+          "sha256": "4358d28fe176c514bd253910e0586e9e0e35dc0e37467c7d5ecc281c91110cf8",
+          "sha1": "7d5aaa32fd7b5002148de7f33d36439a5a48f311",
+          "md5": "e9dde889094f37fd90cbcda7878839dd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-core-1.29.0-sources.jar",
+          "url": "structurizr-core-1.29.0-sources.jar",
+          "size": 107019,
+          "sha512": "c2ad337007b6acb182f72fadf1d4c62b19a468e63e90cef27b4454c2c59e072cf3e6fa652f9df9aeb6c648a3e7b0fe40d85051475850433d0f51fbcbdea11dbc",
+          "sha256": "129968c26a20517d9415802c41fc4ab19711e2944bba3df1df40714377c44ced",
+          "sha1": "1df82f33accd548b5aa5ce08346d09bbf562a563",
+          "md5": "bb2a060144d92410731412c60cda8a2f"
+        }
+      ]
+    }
+  ]
+}
